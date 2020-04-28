@@ -1,0 +1,211 @@
+body {
+    background: url(stretched-1600-900-413777.jpg);
+    background: 100% 100% 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+ 
+* {
+    box-sizing: border-box;
+    
+}
+ 
+.container {
+    background-color: black;
+    width: 1000px;
+    height: 700px;
+    margin:10px 10px;
+    border-radius: 30px;$
+    padding: 30px; 
+    position : relative;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0.76343423234534;
+    
+}
+.container .score {
+    background-color: palevioletred;
+    padding: auto;
+    width: 120px;
+    height: 50px;
+    margin : 10px;
+    position : absolute;
+    left : 830px;
+    top : 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px ;
+}
+.container  h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+.container .good {
+    width: 100px;
+    height: 60px;
+    background-color: palegreen;
+    border-radius: 5px;
+    position : relative;
+    left : 350px;
+    visibility: hidden;
+    position: absolute;
+    
+}
+.container .good p {
+   text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+.container .bad {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    border-radius: 5px;
+    position : relative;
+    left : 350px;
+    visibility: hidden;
+    position: absolute;
+    
+    
+}
+.container .bad p {
+   text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.container .question{
+    width: 800px;
+    height: 400px;
+    margin: 110px auto;
+    box-shadow: 30px 20px 20px;
+    background-color : white;
+    opacity: 0.9;
+    position: relative;
+    overflow: hidden;
+}
+.container .question p {
+    font-family: cursive;
+    font-size: 90px;
+    text-align: center;
+    margin :100px auto ;
+    padding-top: 40px;
+
+}
+
+.choix {
+    height: 150px;
+    width :90%;
+    margin :0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.choix .box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float : left;
+    margin : 40px;
+    margin-top: 0px;
+    box-shadow: 15px 15px 15px black;
+    display : flex;
+    flex-wrap: wrap
+}
+.choix .box:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+.choix .box p {
+    text-align: center;
+    margin :20px 3px 10px 10px ;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 2px 2px 2px 2px;
+    
+}
+.choix .box:active {
+    box-shadow: 3px 3px black;
+        top: 3px;
+}
+.button {
+    width: 100px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left : 450px;
+    bottom : 900px;
+    background-color : darkgrey;
+    bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 
+    
+    
+}
+.button p {
+    text-align: center;
+    padding: 5px 5px;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: bisque;
+}
+ 
+.button:active{
+    box-shadow: 2px 2px 15px black;
+}
+.time {
+   background-color: antiquewhite;
+    padding: 0px 10px;
+    margin : 10px;
+    margin-left : 20px ;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 50px;
+    position : absolute;
+    left : 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px ;
+    bottom: 0px ;
+    top : 30px;
+    display:none;
+}
+.time p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px auto 5px;
+}
+.gg{
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+    position : fixed;
+    top : 128px;
+    display : none;
+    opacity: 0.9;
+}
+.gg h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    line-height: 7;
+    z-index: 1;
+}
+.img {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+}
+#fruit {
+    display : none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}

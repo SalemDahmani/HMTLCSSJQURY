@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fruit_Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script type="module">
+  import {
+    Draggable,
+    Point2DSpring,
+    Tossable,
+    combineStyleStreams,
+    getPointerEventStreamsFromElement,
+  } from "https://ajax.googleapis.com/ajax/libs/material-motion/0.1.0/material-motion.bundle.js";
+</script>
+      
+  </head>
+  <body>
+      <audio id="audio" src="69477_aboe_knifesha1%20(online-audio-converter.com).mp3">
+          <audio id="audio_1" src="Gati%20-%20Kifi%D9%83%D9%8A%D9%81%D9%8A%20(%20Official%20Music%20Video).mp3">
+      </audio>
+          <audio id="audio_2" src="Ha%20gay%20sound%20effect.mp3" >
+      </audio>
+      </audio>
+      <div class = "container" id = "container">
+      <div id = "score" class="score ">
+        <h2>Score :<span id="score_1">0</span></h2>
+          </div>
+          <div id = "good"class="good">
+              <p>Well Done</p>
+          </div>
+          
+          
+          <div id ="bad" class= "bad">
+           <p>Try Again</p></div>
+          
+          <div class="question" id="question">
+              <img id="fruit" >
+          </div>
+          <div class="choix" id="choix">
+             
+          <div class="time" id="time"><p>Life Left :<span id="sec"></span></p></div>
+          </div>
+          <div class="button" id="start_stop">
+          <p>Start Game</p></div>
+      </div>
+      <div id="gg" class="gg">
+          <h1>GAME IS OVER YOUR SCORE IS <span id="final">0</span></h1>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
